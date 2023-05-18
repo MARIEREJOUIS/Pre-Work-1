@@ -1,0 +1,58 @@
+main{
+  flex: 1;
+  display:flex;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+body{
+display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  height: 15%;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: lavenderblush;
+
+}
+
+footer{
+  height: 15%;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: lightgray;
+}
+
+nav{
+  width: 20%;
+  background-color: lightpink;
+}
+
+
+aside{
+  
+  width: 20%;
+  background-color: purple;
+
+}
+
+
+section{
+  
+  flex: 1;
+  background-color: lightcoral;
+  padding-top: 50%;
+  padding-bottom: 50%;
+
+}
+  
